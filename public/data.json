@@ -1,0 +1,80 @@
+[
+    {
+        "id": 1,
+        "name":"Crispy fried chicken",
+        "img":"https://img.freepik.com/free-photo/crispy-fried-chicken-plate-with-salad-carrot_1150-20212.jpg?size=626&ext=jpg&ga=GA1.2.1899172661.1648220250",
+        "price":"200"
+    },
+    {
+        "id": 2,
+        "name":"Pasta",
+        "img":"https://img.freepik.com/free-photo/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table_2829-19744.jpg?size=626&ext=jpg",
+        "price":"200"
+    },
+    {
+        "id": 3,
+        "name":"Vegetables",
+        "img":"https://img.freepik.com/free-photo/vegetables-set-left-black-slate_1220-685.jpg?size=626&ext=jpg",
+        "price":"150"
+    },
+    {
+        "id": 4,
+        "name":"Delicious fried chicken",
+        "img":"https://img.freepik.com/free-photo/delicious-fried-chicken-plate_144627-27383.jpg?size=626&ext=jpg",
+        "price":"300"
+    },
+    {
+        "id": 5,
+        "name":"Chicken with rice",
+        "img":"https://img.freepik.com/free-photo/top-view-table-full-delicious-food-composition_23-2149141352.jpg?size=626&ext=jpg",
+        "price":"500"
+    },
+    {
+        "id": 6,
+        "name":"Grilled chicken",
+        "img":"https://img.freepik.com/free-photo/grilled-chicken…black-stone-table_1150-37858.jpg?size=626&ext=jpg",
+        "price":"450"
+    },
+    {
+        "id": 7,
+        "name":"Baked chicken wings",
+        "img":"https://img.freepik.com/free-photo/baked-chicken-wings-asian-style-tomatoes-sauce-plate_2829-10657.jpg?size=626&ext=jpg",
+        "price":"600"
+    },
+    {
+        "id": 8,
+        "name":"Closeup roasted meat",
+        "img":"https://img.freepik.com/free-photo/closeup-roasted-meat-with-sauce-vegetables-fries-plate-table_181624-35847.jpg?size=626&ext=jpg&ga=GA1.2.1899172661.1648220250",
+        "price":"700"
+    },
+    {
+        "id": 9,
+        "name":"Birani",
+        "img":"https://img.freepik.com/free-photo/delicious-food-white-plate_144627-34705.jpg?size=626&ext=jpg&ga=GA1.2.1899172661.1648220250",
+        "price":"300"
+    },
+    {
+        "id": 10,
+        "name":"Pepperoni pizza",
+        "img":"https://img.freepik.com/free-photo/top-view-pepperoni-pizza-with-mushroom-sausages-bell-pepper-olive-corn-black-wooden_141793-2158.jpg?size=626&ext=jpg&ga=GA1.2.1899172661.1648220250",
+        "price":"800"
+    },
+    {
+        "id": 11,
+        "name":"Naga pizza",
+        "img":"https://img.freepik.com/free-photo/slices-different-types-pizza-white-background_333900-5267.jpg?size=626&ext=jpg&ga=GA1.2.1899172661.1648220250",
+        "price":"900"
+    },
+    {
+        "id": 12,
+        "name":"Shot pizza",
+        "img":"https://img.freepik.com/free-photo/closeup-shot-pizza-with-vegetables-wooden-table_181624-41219.jpg?size=626&ext=jpg&ga=GA1.2.1899172661.1648220250",
+        "price":"600"
+    },
+    {
+        "id": 13,
+        "name":"Pepperoni pizza isolated",
+        "img":"https://img.freepik.com/free-photo/pepperoni-pizza-isolated-white_317111-21.jpg?size=626&ext=jpg&ga=GA1.2.1899172661.1648220250",
+        "price":""
+    }
+]

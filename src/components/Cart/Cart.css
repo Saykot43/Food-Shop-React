@@ -1,0 +1,17 @@
+.cart {
+  position: sticky;
+  top: 0;
+  padding: 30px 20px;
+}
+
+.cart-detail {
+  display: flex;
+  /* justify-content: space-around; */
+  flex-direction: column;
+}
+.cart-detail img {
+  height: 50px;
+  width: 50px;
+  border: 1px solid;
+  border-radius: 30px/10px;
+}

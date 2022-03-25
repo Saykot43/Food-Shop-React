@@ -3,7 +3,7 @@
   grid-template-columns: 4fr 1fr;
 }
 
-.product-container {
+.products-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 45px;
@@ -11,7 +11,7 @@
 }
 
 .cart-container {
-  background-color: rgba(255, 153, 0, 0.3);
+  background-color: rgba(138, 248, 243, 0.3);
 }
 
 @media screen and (max-width: 1100px) {

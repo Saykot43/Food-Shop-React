@@ -3,13 +3,14 @@ import './Product.css'
 import { BsCartFill } from 'react-icons/bs'
 
 const Product = ({product, handleAddToCart}) => {
-    const {name, img, price, id} =product;
+    const {name, img, price, des, id} =product;
     return (
         <div className='product'>
             <img src={img} alt="" />
             <div className="product-info">
                 <p className='product-name'>{name}</p>
-                <p><small>Price: {price}</small></p>
+                <p><small>{des}</small></p>
+                <h4>Price: {price}</h4>
             </div>
             <button className='btn-cart' onClick={()=>handleAddToCart(product)}>
                 <div className="btn-text">

@@ -26,9 +26,18 @@ const Shop = () => {
                 exists.quantity = exists.quantity + 1;
                 newCart = [...rest, exists];
             }
+            // const newCart =[...cart, selectedProduct];
             
             setCart(newCart);
         }
+
+        const reset =()=>{
+            setCart([]);
+        }
+
+        const handleChoice =()=>{
+            
+        };
 
     return (
         <div className='shop-container'>
@@ -42,7 +51,10 @@ const Shop = () => {
                 }
             </div>
             <div className="cart-container">
-                <Cart cart={cart}/>
+                <Cart cart={cart}
+                    reset={reset}
+                    handleChoice={handleChoice}
+                />
             </div>
         </div>
     );

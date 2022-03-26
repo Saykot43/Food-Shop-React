@@ -3,78 +3,91 @@
         "id": 1,
         "name":"Crispy fried chicken",
         "img":"https://img.freepik.com/free-photo/crispy-fried-chicken-plate-with-salad-carrot_1150-20212.jpg?size=626&ext=jpg&ga=GA1.2.1899172661.1648220250",
-        "price":"200"
+        "price":"200",
+        "des":"When it comes to chicken there just isn’t anything more delicious than a juicy, crusty piece of finger-licking good fried chicken....."
     },
     {
         "id": 2,
         "name":"Pasta",
         "img":"https://img.freepik.com/free-photo/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table_2829-19744.jpg?size=626&ext=jpg",
-        "price":"200"
+        "price":"200",
+        "des":"Delicious pasta dishes from classic spaghetti Bolognese to lasagne and linguine. Find the perfect pasta recipe for midweek meals ...."
     },
     {
         "id": 3,
         "name":"Vegetables",
         "img":"https://img.freepik.com/free-photo/vegetables-set-left-black-slate_1220-685.jpg?size=626&ext=jpg",
-        "price":"150"
+        "price":"150",
+        "des":"Buy fresh food items, personal care, baby products and more. Online Vegetables 1 hours delivery at chaldal. Contact us 16710. Services: Online Grocery ...."
     },
     {
         "id": 4,
         "name":"Delicious fried chicken",
         "img":"https://img.freepik.com/free-photo/delicious-fried-chicken-plate_144627-27383.jpg?size=626&ext=jpg",
-        "price":"300"
+        "price":"300",
+        "des":"Crispy, juicy and perfectly seasoned, this really is the best fried chicken recipe, ever. Summer reunions and neighborly gatherings will never be the same."
     },
     {
         "id": 5,
         "name":"Chicken with rice",
         "img":"https://img.freepik.com/free-photo/top-view-table-full-delicious-food-composition_23-2149141352.jpg?size=626&ext=jpg",
-        "price":"500"
+        "price":"500",
+        "des":"Chicken and rice is an unbeatable combo. We put together a collection of chicken and rice recipes that range from soups and salads to main .."
     },
     {
         "id": 6,
         "name":"Grilled chicken",
         "img":"https://img.freepik.com/free-photo/grilled-chicken…black-stone-table_1150-37858.jpg?size=626&ext=jpg",
-        "price":"450"
+        "price":"450",
+        "des":"Preheat the grill to high heat and oil the grates. Place the chicken breasts on the grill and cook, covered, for 2 to 3 minutes per side. Do not ..."
     },
     {
         "id": 7,
         "name":"Baked chicken wings",
         "img":"https://img.freepik.com/free-photo/baked-chicken-wings-asian-style-tomatoes-sauce-plate_2829-10657.jpg?size=626&ext=jpg",
-        "price":"600"
+        "price":"600",
+        "des":"Baked chicken wings are easy to make, and they come out crispy and delicious. Simply bake them in a 400°F oven for 40 minutes...."
     },
     {
         "id": 8,
         "name":"Closeup roasted meat",
         "img":"https://img.freepik.com/free-photo/closeup-roasted-meat-with-sauce-vegetables-fries-plate-table_181624-35847.jpg?size=626&ext=jpg&ga=GA1.2.1899172661.1648220250",
-        "price":"700"
+        "price":"700",
+        "des":"Top view closeup roasted meat pieces decorated with potato garnish and onion served on modern white plate on wooden table. Image EditorSave Comp ..."
     },
     {
         "id": 9,
         "name":"Birani",
         "img":"https://img.freepik.com/free-photo/delicious-food-white-plate_144627-34705.jpg?size=626&ext=jpg&ga=GA1.2.1899172661.1648220250",
-        "price":"300"
+        "price":"300",
+        "des":" Best beef birani in Dhaka - See 559 traveler reviews, 32 candid photos, and great deals for Dhaka City, Bangladesh, at Tripadvisor....."
     },
     {
         "id": 10,
         "name":"Pepperoni pizza",
         "img":"https://img.freepik.com/free-photo/top-view-pepperoni-pizza-with-mushroom-sausages-bell-pepper-olive-corn-black-wooden_141793-2158.jpg?size=626&ext=jpg&ga=GA1.2.1899172661.1648220250",
-        "price":"800"
+        "price":"800",
+        "des":"Quick, Easy and Delicious-Homemade pizza crust and tomato sauce has never been easier-and this recipe for pepperoni pizza produces a delicious classic!"
     },
     {
         "id": 11,
         "name":"Naga pizza",
         "img":"https://img.freepik.com/free-photo/slices-different-types-pizza-white-background_333900-5267.jpg?size=626&ext=jpg&ga=GA1.2.1899172661.1648220250",
-        "price":"900"
+        "price":"900",
+        "des":"Good food, Good Company, Good Times..... Naga Boardwalk, East Poblacion, 6037 Naga, Philippines............"
     },
     {
         "id": 12,
         "name":"Shot pizza",
         "img":"https://img.freepik.com/free-photo/closeup-shot-pizza-with-vegetables-wooden-table_181624-41219.jpg?size=626&ext=jpg&ga=GA1.2.1899172661.1648220250",
-        "price":"600"
+        "price":"600",
+        "des":"Stir 1 cup tomato juice, 1/2 cup vodka, 1 tablespoon brine from a jar of pepperoncini and 1/4 teaspoon dried oregano in a small pitcher...."
     },
     {
         "id": 13,
         "name":"Pepperoni pizza isolated",
         "img":"https://img.freepik.com/free-photo/pepperoni-pizza-isolated-white_317111-21.jpg?size=626&ext=jpg&ga=GA1.2.1899172661.1648220250",
-        "price":""
+        "price":"1000",
+        "des":"Pepperoni Pizza Isolated stock images are ready. Download all free or royalty-free photos and images. Use them in commercial designs under lifetime, ..."
     }
 ]

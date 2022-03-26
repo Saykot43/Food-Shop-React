@@ -6,7 +6,6 @@
 
 .cart-detail {
   display: flex;
-  /* justify-content: space-around; */
   flex-direction: column;
 }
 .cart-detail img {
@@ -21,7 +20,7 @@
 }
 
 .choice {
-  color: aqua;
+  color: rgb(225, 245, 51);
   background-color: blue;
   padding: 10px;
   margin-right: 5px;
@@ -31,7 +30,7 @@
 
 .reset {
   color: aqua;
-  background-color: rgb(247, 82, 60);
+  background-color: rgb(228, 49, 49);
   padding: 10px;
   border-radius: 10px 10px 10px;
   cursor: pointer;

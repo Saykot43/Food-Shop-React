@@ -10,7 +10,6 @@ const Cart = ( {cart , reset, handleChoice} ) => {
     return (
         <div className='cart'>
             <h4>Order Summary</h4>
-            {/* <p>Selected Items: {quantity}</p> */}
             <div className='cart-detail'>
                 {
                     cart.map(item=>(

@@ -10,6 +10,7 @@
 .color {
   color: #ffffff;
   margin-left: 130px;
+  cursor: pointer;
 }
 .header a {
   text-decoration: none;

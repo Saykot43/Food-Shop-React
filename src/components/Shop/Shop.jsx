@@ -13,30 +13,39 @@ const Shop = () => {
         .then(data => setProducts(data));
     },[])
 
+// Add product function
     const handleAddToCart = (selectedProduct) =>{
-            // console.log(selectedProduct);
-            let newCart = [];
-            const exists = cart.find(product => product.id === selectedProduct.id);
-            if(!exists){
-                newCart = [...cart, selectedProduct];
+            const duplicateProduct = cart.find(p => p === selectedProduct)
+            const cartLength = [...cart, selectedProduct].length;
+            if (duplicateProduct) {
+                alert(`${duplicateProduct.name} already in the cart!\nYou can not add duplicate product !!!`)
             }
-            else{
-                const rest = cart.filter(product => product.id !== selectedProduct.id);
-                newCart = [...rest, exists];
+    
+            else if (cartLength > 4) {
+                alert("You can not add more than 4 items in the cart");
             }
-            
-            // const newCart =[...cart, selectedProduct];
-            
-            setCart(newCart);
+    
+            else {
+                const cartItems = [...cart, selectedProduct]
+                setCart(cartItems);
+            }
         }
 
+   // Product reset function
         const reset =()=>{
             setCart([]);
         }
-
-        const handleChoice =()=>{
-            const choice = cart[Math.floor(Math.random()*cart.length)];
-            setCart([choice]);
+   // Choice Product
+        const handleChoice =(selectCart)=>{
+            const totalCartItems = selectCart.length;
+            if (totalCartItems < 2) {
+                alert("Please add minimum 2 items to choose 1 randomly")
+            }
+            else {
+                const index = Math.floor(Math.random() * totalCartItems);
+                const lucky = selectCart[index]
+                setCart([lucky]);
+            }
         };
 
     return (

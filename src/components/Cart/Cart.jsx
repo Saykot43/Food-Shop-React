@@ -3,6 +3,7 @@ import './Cart.css'
 import { TiDeleteOutline } from 'react-icons/ti'
 
 const Cart = ( {cart , reset, handleChoice} ) => {
+    const{ name }=cart;
     let quantity =0;
     for(const product of cart){
         quantity = quantity+product.quantity;
@@ -14,7 +15,7 @@ const Cart = ( {cart , reset, handleChoice} ) => {
             {/* <p>Selected Items: {quantity}</p> */}
             <div className='cart-detail'>
                 {
-                    cart.map((item)=>(
+                    cart.map(item=>(
                         (
                             <div className='flex'>
                                 <div className='flex1'>
@@ -23,12 +24,13 @@ const Cart = ( {cart , reset, handleChoice} ) => {
                                 </div>
                                 <TiDeleteOutline className='del-btn'/>
                             </div>
-                            
                         )
                     ))
                 }
             </div>
+            <div>{[name]}</div>
             <div className="btn-reset">
+                
                 <button onClick={()=>handleChoice()} className='choice'>Choice one</button>
                 <button onClick={()=>reset()} className='reset'>Reset</button>
             </div>
